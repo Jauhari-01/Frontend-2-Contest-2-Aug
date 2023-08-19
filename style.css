@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+    color: white;
+}
+.pageTitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+form{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+input{
+    width: 430px;
+    height: 40px;
+    border: 2px solid white;
+}
+button{
+    width: 490px;
+    height: 40px;
+    background: #FFF;
+    color: black
+}
+
+#search{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#table{
+    width: 100%;
+    border: 2px solid white;
+    margin-left: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td,tr,th{
+    border: 2px solid white;
+    border-collapse: collapse;
+}

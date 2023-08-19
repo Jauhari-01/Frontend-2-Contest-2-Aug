@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contest-2</title>
+</head>
+<body>
+    <main>
+        <h1 class="pageTitle">Student Management CRUD</h1>
+        <form id="f">
+            <input name="name" type="text" placeholder="NAME">
+            <input name="email" type="email" placeholder="EMAIL">
+            <input name="gpa" type="number" placeholder="GPA">
+            <input name="age" type="number" placeholder="AGE">
+            <input name="degree" type="text" placeholder="DEGREE">
+            <button type="submit">Add Student</button>
+        </form>
+        <input id="search" name="search" placeholder="Search By Name, email or degree">
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+            </tr>
+        </table>
+    </main>
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+</body>
+</html>
