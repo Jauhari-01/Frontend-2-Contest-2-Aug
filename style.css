@@ -38,9 +38,9 @@ button{
 }
 
 #table{
-    width: 100%;
+    width: 90%;
     border: 2px solid white;
-    margin-left: 10px;
+    margin: auto;
     border-collapse: collapse;
     text-align: center;
 }
